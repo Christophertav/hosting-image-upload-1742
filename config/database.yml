@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: hosting_image_upload_development
+  database: hosting_image_upload_development_test
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
